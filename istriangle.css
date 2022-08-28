@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+:root{
+
+    --primary-color:#1e3a8a;
+    --secondary-color:#d1d5db;
+
+}
+
+body{
+    margin: 0px;
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
+.navigation {
+
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+ 
+   
+}
+.container {
+
+    padding: 0rem 1rem;
+
+}
+
+.navigation .nav-brand {
+
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    font-size:xx-large;
+    text-align: center;
+    padding: 1rem;
+    word-spacing: 0.2rem;
+
+}
+
+.list-non-bullet {
+
+    list-style: none;
+
+}
+
+.list-item-inline {
+
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+.navigation .nav-pills {
+
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.navigation .link {
+
+    color: white;
+
+}
+
+.link {
+
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+   
+}
+
+h1{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    word-spacing: 0.3rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  .container2{
+    width: 50%;
+    margin: auto;
+  }
+
+  input,label{
+    display: block;
+    text-align: center;
+    margin-bottom:1rem;
+    font-family:'PT Sans Narrow', sans-serif; 
+    font-size: larger;
+  }
+  
+  input{
+    margin-bottom:0.5rem ;
+    width: 30%;
+    margin: auto;
+    border-radius: 0.5rem;
+    border:3px solid var(--primary-color);
+    font-size:14px;
+    padding:0.6rem;
+  }
+  
+  button{
+    display: block;
+  /*   margin-top:2rem; */
+    margin: auto;
+    background: var(--primary-color);
+    color:white;
+    border-color:var(--primary-color);
+    border-width: medium;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: large;
+
+  }
+
+  label[for="angle2"]{
+    margin-top: 1rem;
+  }
+
+  label[for="angle3"]{
+    margin-top: 1rem;
+  }
+
+  #output{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: larger;
+    font-family: 'Silkscreen', cursive;
+  }
+
+  #is-triangle-btn{
+    margin-top: 2.5rem;
+  }
+
+  footer{
+    margin-top: 2rem;
+  /*   position: absolute; */
+    bottom: 0;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+  footer,p {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+    word-spacing: 0.4rem;
+    margin: auto;
+    color: var(--primary-color);
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  img {
+    width: 30px;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+
+  .social-links {
+    text-align: center;
+  }
+  
+  .social-links > .link {
+    padding: 0 0.5rem;
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  
+
