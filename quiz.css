@@ -88,7 +88,7 @@ h1{
   }
 
   input,label{
-    display: block;
+   
     text-align: center;
     margin-bottom:1rem;
     font-family:'PT Sans Narrow', sans-serif; 
@@ -107,7 +107,7 @@ h1{
   
   button{
     display: block;
-  /*   margin-top:2rem; */
+    margin-top:2rem;
     margin: auto;
     background: var(--primary-color);
     color:white;
@@ -120,13 +120,7 @@ h1{
 
   }
 
-  label[for="angle2"]{
-    margin-top: 1rem;
-  }
 
-  label[for="angle3"]{
-    margin-top: 1rem;
-  }
 
   #output{
     text-align: center;
@@ -135,9 +129,7 @@ h1{
     font-family: 'Silkscreen', cursive;
   }
 
-  #is-triangle-btn{
-    margin-top: 2.5rem;
-  }
+
 
   footer{
     margin-top: 2rem;
@@ -148,10 +140,12 @@ h1{
     justify-content: center;
     align-items: center;
     width: 100%;
+  
     
   }
 
-  footer,p {
+  footer p{
+
     font-size: large;
     font-weight: bold;
     text-align: center;
@@ -162,15 +156,23 @@ h1{
     font-family: 'PT Sans Narrow', sans-serif;
   }
 
+  p{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+    word-spacing: 0.4rem;
+    margin: auto;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom:1rem;
+  }
+
   img {
     width: 30px;
   }
   
-  a,
-  img,
-  li {
-    display: inline;
-  }
+ 
 
   .social-links {
     text-align: center;
@@ -192,6 +194,7 @@ h1{
   input[type="radio" i] {
    display: inline;
    width: 20px;
+   /* text-align: center; */
    
 }
 
@@ -201,28 +204,24 @@ h1{
   margin-top: 2rem;
 }
 
-label[for="b"]{
-  margin-top: 2rem;
-}
 
-label[for="triangle-height"]{
-  margin-top: 2rem;
-}
 
-#calculate-area{
-  margin-top: 2rem;
-}
-
-#output-box{
-  text-align: center;
-  margin-top: 2rem;
-  font-size: larger;
-  font-family: 'Silkscreen', cursive;
-}
 
 .navigation .link-active {
   color: yellow;
 
 }
-  
+
+.quiz-form{
+    text-align: center;
+}
+
+#submit-answer-btn{
+    margin-top: 3rem;
+}
+/* 
+ p{
+    margin-bottom:1rem;
+}
+   */
 
