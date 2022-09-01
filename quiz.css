@@ -156,15 +156,16 @@ h1{
     font-family: 'PT Sans Narrow', sans-serif;
   }
 
+
   p{
     font-size: large;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
     padding-top: 3rem;
     word-spacing: 0.4rem;
     margin: auto;
     color: black;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mali', cursive;
     margin-bottom:1rem;
   }
 
