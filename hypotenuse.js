@@ -12,10 +12,14 @@ function calculateSumOfSquares(a,b){
 }
 
 function calculateHypotenuse(){
+    if(sides[0].value && sides[1].value){
     const sumOfSquares = calculateSumOfSquares(Number(sides[0].value),Number(sides[1].value));
     const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
     outputEl.innerText = "The length of hypotenuse is " + lengthOfHypotenuse;
 
+}else{
+    outputEl.innerText = "Please Enter both base and the height !"
 } 
+}
 
 hypotenuseBtn.addEventListener("click",calculateHypotenuse);
