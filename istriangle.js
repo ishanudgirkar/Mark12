@@ -13,7 +13,7 @@ function calculateSumOfAngles(angle1 , angle2 ,angle3){
 function isTriangle(){
     if(inputs[0].value && inputs[1].value && inputs[2].value){
       if(Number(inputs[0].value) < 0 || Number(inputs[1].value) < 0 || Number(inputs[2].value) < 0 ){
-        outputEl.innerText = "How could be the angles negative ? 😡"
+        outputEl.innerText = "How could the angles be negative ? 😡"
       }else{
     const sumOfAngles = calculateSumOfAngles(Number(inputs[0].value ),Number(inputs[1].value ),Number(inputs[2].value ));
       if(sumOfAngles === 180){
