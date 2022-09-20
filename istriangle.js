@@ -12,6 +12,9 @@ function calculateSumOfAngles(angle1 , angle2 ,angle3){
 
 function isTriangle(){
     if(inputs[0].value && inputs[1].value && inputs[2].value){
+      if(Number(inputs[0].value) === 0 || Number(inputs[1].value) === 0 || Number(inputs[2].value) === 0 ){
+        outputEl.innerText = "Angles cannot be zero ! 😉"
+      }else{
       if(Number(inputs[0].value) < 0 || Number(inputs[1].value) < 0 || Number(inputs[2].value) < 0 ){
         outputEl.innerText = "How could the angles be negative ? 😡"
       }else{
@@ -20,7 +23,7 @@ function isTriangle(){
         outputEl.innerText = "Yay ! The angles form a triangle !" ;
       }else{
         outputEl.innerText = "Oh no ! The angles don't form a triangle !" ;
-      }}
+      }}}
     }else{
     outputEl.innerText = "Please enter all the angles ! 🤔"
     }

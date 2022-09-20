@@ -13,13 +13,16 @@ function calculateSumOfSquares(a,b){
 
 function calculateHypotenuse(){
     if(sides[0].value && sides[1].value){
+        if(Number(sides[0].value) === 0 || Number(sides[1].value) === 0){
+            outputEl.innerText = "Sides of triangle  can't be zero 🤗 !"
+        }else{
         if(Number(sides[0].value) < 0 || Number(sides[1].value) < 0 ){
             outputEl.innerText = "Sides can't be negative ! 🤐"
         }else{
     const sumOfSquares = calculateSumOfSquares(Number(sides[0].value),Number(sides[1].value));
     const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
     outputEl.innerText = "The length of hypotenuse is " + lengthOfHypotenuse;
-     }}else{
+     }}}else{
     outputEl.innerText = "Please Enter both base and the height !"
 } 
 }
